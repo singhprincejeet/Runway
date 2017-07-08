@@ -4,10 +4,10 @@ import org.junit.Test;
 
 import statem.Runway;
 
-public class RunwayTest {
+public class RunwayConformanceTest {
 
 	@Test
-	public void test1() {
+	public void testConformance1() {
 		boolean outcome = false;
 		Runway runway = new Runway();
 		assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -29,7 +29,7 @@ public class RunwayTest {
 	}
 
 	@Test
-	public void test2() {
+	public void testConformance2() {
 		boolean outcome = false;
 		Runway runway = new Runway();
 		assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -55,7 +55,7 @@ public class RunwayTest {
 	}
 
     @Test
-    public void test3() {
+    public void testConformance3() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -71,7 +71,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test4() {
+    public void testConformance4() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -87,7 +87,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test5() {
+    public void testConformance5() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -103,7 +103,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test6() {
+    public void testConformance6() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -119,7 +119,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test7() {
+    public void testConformance7() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -145,7 +145,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test8() {
+    public void testConformance8() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
@@ -181,7 +181,7 @@ public class RunwayTest {
     }
 
     @Test
-    public void test9() {
+    public void testConformance9() {
         boolean outcome = false;
         Runway runway = new Runway();
         assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());

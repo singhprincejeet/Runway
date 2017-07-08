@@ -152,7 +152,7 @@ public class RunwayConformanceTest {
         assertEquals("Wrong State",Runway.RunwayStateMachineClosed.Null, runway.getRunwayStateMachineClosed());
         outcome = runway.repair();
         assertTrue(outcome);
-        assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
+        assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Null, runway.getRunwayStateMachineOpen());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosed.Restoration, runway.getRunwayStateMachineClosed());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosedRestoration_1.Restoration_1, runway.getRunwayStateMachineClosedRestoration_1());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosedRestoration_2.Restoration_2, runway.getRunwayStateMachineClosedRestoration_2());
@@ -188,7 +188,7 @@ public class RunwayConformanceTest {
         assertEquals("Wrong State",Runway.RunwayStateMachineClosed.Null, runway.getRunwayStateMachineClosed());
         outcome = runway.repair();
         assertTrue(outcome);
-        assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Free, runway.getRunwayStateMachineOpen());
+        assertEquals("Wrong State",Runway.RunwayStateMachineOpen.Null, runway.getRunwayStateMachineOpen());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosed.Restoration, runway.getRunwayStateMachineClosed());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosedRestoration_1.Restoration_1, runway.getRunwayStateMachineClosedRestoration_1());
         assertEquals("Wrong State",Runway.RunwayStateMachineClosedRestoration_2.Restoration_2, runway.getRunwayStateMachineClosedRestoration_2());
